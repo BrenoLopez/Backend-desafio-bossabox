@@ -29,20 +29,22 @@ Criação de simples API utilizando NODEJS + EXPRESS + MONGODB  (em especifico a
                 - title: titulo da ferramenta 
                 - link: link relacionado aquela ferramenta
                 - description: decrição da ferramenta 
-                - tags: tags relacionadas à aquela ferramenta 
+                - tags: tags relacionadas à aquela ferramenta
+ 
 
 
 ## Listagem de ferramentas [GET /tools]
 
 + Response 200 (application/json)
 
-        + Atributos 
+       + Atributos 
             - Tools
                 - _id: identificador da ferramenta
                 - title: titulo da ferramenta 
                 - link: link relacionado aquela ferramenta
                 - description: decrição da ferramenta 
                 - tags: tags relacionadas à aquela ferramenta
+
  
 
 ## Filtrar ferramentas  [GET /tools?tag=node]
@@ -55,7 +57,8 @@ Criação de simples API utilizando NODEJS + EXPRESS + MONGODB  (em especifico a
                 - title: titulo da ferramenta 
                 - link: link relacionado aquela ferramenta
                 - description: decrição da ferramenta 
-                - tags: tags relacionadas à aquela ferramenta  
+                - tags: tags relacionadas à aquela ferramenta
+  
 
 
 ## Remove uma ferramenta por ID [DELETE /tools/{id}]
