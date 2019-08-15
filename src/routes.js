@@ -2,6 +2,7 @@ const express = require('express');
 const routes = express();
 const ToolController = require('./controllers/ToolController');
 
+
 //rota de cadastro das ferramentas 
 routes.post('/tools',ToolController.store);
 //rota para listar todas as ferramentas

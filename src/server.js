@@ -2,10 +2,12 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const routes = require('./routes');
+const path = require('path');
 
 const api = express();
 
 mongoose.connect('mongodb+srv://desafio-bossa-box:bossaboxdesafio@cluster0-zkovk.mongodb.net/desafio-bossa-box?retryWrites=true&w=majority',{useNewUrlParser: true})
+api.use('/', express.static(path.resolve(__dirname,'..','documentation')));
 
 api.use(express.json());
 api.use(routes);
