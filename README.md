@@ -49,7 +49,7 @@ Criação de simples API utilizando NODEJS + EXPRESS + MONGODB  (em especifico a
 
 + Response 200 (application/json)
 
-    + Atributos 
+        + Atributos 
             - Tools
                 - _id: identificador da ferramenta
                 - title: titulo da ferramenta 
@@ -65,3 +65,9 @@ Criação de simples API utilizando NODEJS + EXPRESS + MONGODB  (em especifico a
 
 + Reponse 204 No Content
 
+## Execução da aplicação 
+
+    + Comandos 
+        - 1° yarn install ou npm install para instalar as dependências 
+        - 2° yarn dev para executar a api em ambiente de desenvolvimento
+        - 3° yarn dev para executar a api em ambiente de produção
