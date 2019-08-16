@@ -65,7 +65,7 @@ Criação de simples API utilizando NODEJS + EXPRESS + MONGODB  (em especifico a
   
 
 
-## Remove uma ferramenta por ID [DELETE /tools/{id}]
+## Remove uma ferramenta por ID [DELETE /tools/:id]
 
 + Paramêtro 
     + id: `5d55b0d9fe6bb71f0c103031` - Identificador da ferramenta que deseja remover
