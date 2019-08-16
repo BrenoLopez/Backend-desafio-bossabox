@@ -1,6 +1,6 @@
 FORMAT: 1A
 
-HOST: https://https://backend-bossa-box.herokuapp.com/
+HOST: https://backend-bossa-box.herokuapp.com
 
 #  Desafio Backend Bossa Box 
 
